@@ -296,8 +296,8 @@ body {
 
 @media (max-width: 800px) {
   .u-top {
-    -webkit-transform: translateY(-24%);
-            transform: translateY(-24%);
+    -webkit-transform: translateY(-27%);
+            transform: translateY(-27%);
   }
 }
 
