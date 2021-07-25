@@ -17,6 +17,10 @@ body {
   background-color: #473a3a;
   padding: 0 10vw;
   overflow: hidden;
+
+  @media (max-width: 800px) {
+    padding: 0 2vw;
+  }
 }
 
 .main-content {
@@ -26,5 +30,4 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // background-color: #decd12;
 }

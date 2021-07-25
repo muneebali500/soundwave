@@ -19,6 +19,12 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 800px) {
+  body {
+    padding: 0 2vw;
+  }
+}
+
 .main-content {
   margin: 0 auto;
   max-width: 95%;
