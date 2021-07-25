@@ -1,0 +1,37 @@
+.lady-image {
+  height: 100%;
+  width: 50%;
+  background-image: url(../../images/landing-page-girl.png);
+  background-position: 0 10rem;
+  background-size: 25vw 45rem;
+  background-repeat: no-repeat;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.main-text {
+  h1 {
+    font-size: calc(3vw + 2rem);
+    color: #fff;
+
+    @media (max-width: 800px) {
+      font-size: 4.5rem;
+      margin-top: -3rem;
+    }
+  }
+  p {
+    font-size: 2.2rem;
+    color: rgba(255, 255, 255, 0.767);
+    margin-bottom: 3rem;
+  }
+  .button {
+    font-size: 1.8rem;
+    padding: 1.2rem 2rem;
+    border-radius: 3px;
+    background-color: #9d49de;
+    color: #fff;
+    text-decoration: none;
+  }
+}

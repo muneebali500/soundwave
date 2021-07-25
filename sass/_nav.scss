@@ -1,0 +1,39 @@
+.nav-logo-container {
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+
+  @media (max-width: 800px) {
+    max-width: 100%;
+  }
+}
+
+.logo {
+  text-decoration: none;
+  &-image {
+    margin-right: 1rem;
+  }
+
+  &-name {
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #fff;
+    transform: translateY(-100%);
+  }
+}
+
+.nav {
+  &-item {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8rem;
+    margin-left: 2.5rem;
+
+    &:hover {
+      color: rgb(200, 200, 200);
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000be;
+  padding: 1rem 12vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+
+  &-nav {
+    a {
+      text-decoration: none;
+      color: #fff;
+
+      &:nth-child(1) {
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  &-social {
+    a {
+      text-decoration: none;
+      color: #fff;
+
+      &:nth-child(2) {
+        margin-left: 2rem;
+      }
+    }
+  }
+}

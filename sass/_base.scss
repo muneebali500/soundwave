@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #473a3a;
+  padding: 0 10vw;
+  overflow: hidden;
+}
+
+.main-content {
+  margin: 0 auto;
+  max-width: 95%;
+  height: 85vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // background-color: #decd12;
+}
