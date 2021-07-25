@@ -256,8 +256,8 @@ body {
 
 @media (max-width: 800px) {
   .section__form {
-    -webkit-transform: translateY(-14%);
-            transform: translateY(-14%);
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
   }
 }
 
@@ -295,8 +295,7 @@ body {
 }
 
 @media (max-width: 800px) {
-  .u-top,
-  .section__form {
+  .u-top {
     -webkit-transform: translateY(-20%);
             transform: translateY(-20%);
   }

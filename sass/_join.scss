@@ -31,7 +31,7 @@
   }
 
   @media (max-width: 800px) {
-    transform: translateY(-14%);
+    transform: translateY(-25%);
   }
 
   .input-group {
@@ -65,8 +65,7 @@
   }
 }
 
-.u-top,
-.section__form {
+.u-top {
   @media (max-width: 800px) {
     transform: translateY(-20%);
   }
