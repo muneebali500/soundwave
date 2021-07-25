@@ -224,12 +224,12 @@ body {
 }
 
 .section__text {
-  margin-top: -4rem;
+  margin-top: -2rem;
 }
 
 @media (max-width: 600px) {
   .section__text {
-    margin-top: -1rem;
+    margin-top: 0rem;
   }
 }
 
@@ -292,6 +292,13 @@ body {
   padding: 1.2rem 0;
   border-radius: 5px;
   cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .u-top {
+    -webkit-transform: translateY(-24%);
+            transform: translateY(-24%);
+  }
 }
 
 .nav-logo-container {

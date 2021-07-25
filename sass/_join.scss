@@ -5,9 +5,9 @@
 }
 
 .section__text {
-  margin-top: -4rem;
+  margin-top: -2rem;
   @media (max-width: 600px) {
-    margin-top: -1rem;
+    margin-top: 0rem;
   }
 
   &-title {
@@ -65,8 +65,8 @@
   }
 }
 
-// .u-top {
-//   @media (max-width: 800px) {
-//     transform: translateY(-24%);
-//   }
-// }
+.u-top {
+  @media (max-width: 800px) {
+    transform: translateY(-24%);
+  }
+}
