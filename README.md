@@ -35,5 +35,5 @@ The project was deployed to Netlify
 3. The original copy of the repository is now copied on your GitHub account which allows you to view and/or work on the codes without affecting the original work
 
 ### Credit
-- DevEd for the [design](https://www.youtube.com/watch?v=FK4YusHIIj0&t=0s) 
+- DevEd for the [design](https://www.youtube.com/watch?v=FK4YusHIIj0&t=0s) only, NOT CODING
 
