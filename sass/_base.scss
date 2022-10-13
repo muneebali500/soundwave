@@ -13,21 +13,12 @@ html {
 }
 
 body {
-  height: 100vh;
   background-color: #473a3a;
-  padding: 0 10vw;
   overflow: hidden;
-
-  @media (max-width: 800px) {
-    padding: 0 2vw;
-  }
 }
 
-.main-content {
+.container-center {
+  width: 110rem;
+  max-width: 90%;
   margin: 0 auto;
-  max-width: 95%;
-  height: 85vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }

@@ -1,24 +1,40 @@
+.discover-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media only screen and (max-width: 59em) {
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+  }
+}
+
 .section__text {
-  height: 100%;
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transform: translateY(-5%);
 
-  @media (max-width: 800px) {
-    width: 100%;
-    align-items: center;
+  @media only screen and (max-width: 59em) {
     text-align: center;
   }
 
   &-title {
-    font-size: 3.5rem;
+    font-size: calc(5vmin + 0.5rem);
     color: #fff;
   }
 
   &-features {
     display: flex;
+
+    @media only screen and (max-width: 59em) {
+      justify-content: center;
+    }
+
     .feature {
       display: flex;
       flex-direction: column;
@@ -30,6 +46,10 @@
       color: #fff;
       margin: 4rem 1.5rem 4rem 0;
 
+      @media only screen and (max-width: 59em) {
+        margin: 2rem 1rem;
+      }
+
       img {
         height: 3.5rem;
         margin-bottom: 1rem;
@@ -38,25 +58,26 @@
   }
 
   &-para {
-    font-size: 1.7rem;
+    font-size: calc(2vmin + 0.5rem);
     color: rgba(255, 255, 255, 0.7);
   }
 }
 
 .section-image {
-  height: 100%;
-  flex-grow: 1;
   display: flex;
-  align-items: center;
   justify-content: flex-end;
-  transform: translateY(-3%);
 
-  @media (max-width: 800px) {
-    display: none;
+  @media only screen and (max-width: 59em) {
+    justify-content: center;
   }
 
   img {
     height: 62%;
     width: 70%;
+
+    @media only screen and (max-width: 59em) {
+      height: 50%;
+      width: 50%;
+    }
   }
 }
